@@ -1,0 +1,667 @@
+
+
+@font-face{
+    font-family: "Audi Type";
+    src: url(../webfonts/audi-type-2-cufonfonts/AudiType-Bold_03.ttf);
+}
+
+@font-face{
+    font-family: "Audi Type";
+    src: url(../webfonts/audi-type-2-cufonfonts/AudiType-Normal_03.ttf);
+}
+
+.red{
+    background-color: red;
+}
+
+
+
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    .col-1{width: 8.33%;}
+    .col-2{width: 16.66%;}
+    .col-3{width: 25%;}
+    .col-4{width: 33.33%;}
+    .col-5{width: 41.6%;}
+    .col-6{width: 50%;}
+    .col-7{width: 58.3%;}
+    .col-8{width: 66.6%;}
+    .col-9{width: 75%;}
+    .col-10{width: 83.33%;}
+    .col-11{width: 91.66%;}
+    .col-12{width: 100%;}
+
+    .img-fluid{
+        display: block;
+        width: 100%;
+    }
+
+    .img-fluid2{
+        display: block;
+        width: 69px;
+    }
+
+    .bg1{
+        background-color: black !important;
+        color: white;
+    }
+
+    .bg1:hover{
+        color: rgb(0, 0, 0) !important;
+        border: 1px solid black;
+        background-color: none !important;
+    }
+    .gap{
+        margin-top: 80px;
+        /*margin-bottom: 30px;*/
+    }
+
+
+    .header1{
+        font-family: "Audi Type";
+        font-size: 40px;
+        font-weight: bolder;
+    }
+
+
+    .about-gap{
+       
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+   
+    .about-gap2{
+        width: 45%;
+    }
+    .header{
+        text-align: center
+    }
+    .space{
+        background-color: rgb(248, 242, 242);
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .gap2{
+        margin-top: 50px;
+        
+    }
+    .gap3{
+        margin-top:50px ;
+    }
+    /*.text{
+        border: 0.5px outset black;
+        background-color: black;
+        padding: 16px 8px 16px 8px;
+        color: white;
+        text-align: center;
+        width: 150px;
+    }*/
+
+    .elec-main{
+        display: flex;
+    }
+
+    .elec-text1{
+
+        margin-top: 10px;
+        border: 0.5px outset black;
+        padding: 16px 8px 16px 8px ;
+        text-align: center;
+        width: 200px;
+        background-color: black;
+        color: white;
+        margin-right: 10px;
+
+    }
+
+    .elec-text1:hover{
+        background-color: white;
+        color: black;
+        border: 0.5px outset black;
+    }
+
+    .elec-text2{
+        margin-top: 10px;
+        border: 0.5px outset black;
+        padding: 16px 8px 16px 8px ;
+        text-align: center;
+        width: 200px;
+    }
+
+    .elec-mid{
+        margin-top: 130px;
+    }
+
+    .kilo-sub-main{
+        flex-grow: 1;
+        border-right: 0.5px outset black;
+    }
+
+    .kilo-text-1{
+        font-family: "Audi Type";
+        font-size: 16px;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .kilo-text-2{
+        
+        font-family: "Audi Type";
+        font-size: 70px;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .kilo-text-3{
+        font-family: "Audi Type";
+        font-size: 16px;
+        
+        text-align: center;
+    }
+
+    .kilo-5{
+        font-size: 30px;
+    }
+
+    .kilo-main{
+        display: flex;
+    }
+
+    .kilo-text{
+        font-family: "Audi Type";
+        font-size: 16px;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+
+
+    .text2{
+        margin-top: 10px;
+        border: 0.5px outset black;
+        padding: 16px 8px 16px 8px ;
+        text-align: center;
+        width: 200px;
+    }
+
+    .text2:hover{
+        color: white;
+        border: 0.5px outset black;
+        background-color: black;
+    }
+
+
+    .img-elec{
+        background-image: url(../images/electric_audi.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 1200px;
+    }
+
+    .box{
+        /*padding: 50px;*/
+        border: 1px solid white;
+        flex-grow: 1;
+        gap: 10px;
+    }
+
+    .main{
+        display: flex;
+        gap: 10px;
+    }
+
+    .G-main{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .G-main1{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .g_mid{
+        margin-top: 10px;
+    }
+
+    .img-fluid1{
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .box{
+        background-color: white;
+        padding: 100px;
+        width: 800px;
+        margin-top: 60px;
+        margin-left: 110px;
+    }
+
+
+    .main{
+        display: flex;
+        
+    }
+    .main2{
+        display: flex;
+        gap: 10px;
+    }
+    .text3{
+        border: 0.5px outset black;
+        padding: 16px 8px 16px 8px ;
+        text-align: center;
+        width: 200px;
+        margin: auto;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .g-text1{
+        font-family: "Audi Type";
+        font-size: 16px;
+    }
+
+    .g-text-sub{
+        font-family: "Audi Type";
+        font-size: 16px;
+        
+    }
+
+    .g-text-sub a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+
+    .img-matter{
+        background-image: url(../images/matter.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 1200px;
+    }
+
+    .box-matter{
+        
+        padding: 100px;
+        width: 800px;
+        margin-top: 60px;
+        margin-left: 110px;
+    }
+
+    .matter-text{
+        font-family: "Audi Type";
+        font-size: 60px;
+        font-weight: bolder;
+    }
+
+    .matter-text-para{
+        font-family: "Audi Type";
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+
+    .matter-main{
+        display: flex;
+    }
+
+    .matter-text1{
+        background-color: white;
+        margin-top: 10px;
+        border: 1px solid white;
+        padding: 16px 8px 16px 8px ;
+        text-align: center;
+        width: 200px;
+        margin-right: 20px;
+        font-size: 20px;
+
+    }
+
+    .matter-text1:hover{
+        background-color: black;
+        color: white;
+        border: 0.5px solid white;
+    }
+
+    .matter-text2{
+        margin-top: 10px;
+        border: 1px solid white;
+        padding: 16px 8px 16px 8px ;
+        text-align: center;
+        width: 200px;
+        font-size: 20px;
+        color: white;
+    }
+
+
+
+
+
+    /*.
+    wrapper{
+        display: flex;
+    }
+    .red{
+        background-color: red;
+    }
+    .blue{
+        background-color: blue;
+    }
+    .yellow{
+        background-color: yellow;
+    }
+    .box{
+        flex-grow: 1;
+    }
+    .wrapper2{
+        flex-direction: column;
+    }*/
+    .bg{
+        background-color: black;
+    }
+    .footer-sec{
+        color: white;
+        list-style: none;
+    }
+
+    .footer-box{
+        padding: 20px;
+        flex-grow: 1;
+    }
+
+    .heading{
+        color: white;
+        font-family: "Audi Type";
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .footer_1{
+        color: white;
+        font-family: "Audi Type";
+        font-size: 12px;
+    }
+
+    .footer_1:hover{
+        color: grey;
+    }
+
+    .footer-main{
+        display: flex;
+    }
+
+    .g-main{
+        display: block;
+    }
+
+    /* responsive*/
+
+    /* For Smart Phone*/
+    @media screen and (max-width:767px) and (min-width:576px)
+    {
+
+    .container{width:540px;}   
+    .col-sm-1{width: 8.33%;}
+    .col-sm-2{width: 16.66%;}
+    .col-sm-3{width: 25%;}
+    .col-sm-4{width: 33.33%;}
+    .col-sm-5{width: 41.6%;}
+    .col-sm-6{width: 50%;}
+    .col-sm-7{width: 58.3%;}
+    .col-sm-8{width: 66.6%;}
+    .col-sm-9{width: 75%;}
+    .col-sm-10{width: 83.33%;}
+    .col-sm-11{width: 91.66%;}
+    .col-sm-12{width: 100%;}
+
+    .header1 {
+        font-family: "Audi Type";
+        font-size: 30px;
+        font-weight: bolder;
+    }
+
+    .main{
+        display: block;
+        
+    }
+
+    .box {
+        background-color: white;
+        padding: 50px;
+        width: 552px;
+        margin-top: 126px;
+        margin-left: 0px;
+    }
+
+    .kilo-main {
+        display: block;
+    }
+
+    .kilo-sub-main {
+        flex-grow: 1;
+        border-bottom: 1px solid 
+        black;
+        border-right: none;
+       
+    }
+
+    .kilo-text-1 {
+        font-family: "Audi Type";
+        font-size: 16px;
+        font-weight: bolder;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .elec-mid {
+        margin-top: 0px;
+    }
+
+    .box-matter {
+        padding: 6px;
+        width: 400px;
+        margin-top: 60px;
+        margin-left: 74px;
+        height: 256px;
+    }
+
+    .matter-text {
+        font-family: "Audi Type";
+        font-size: 30px;
+        font-weight: bolder;
+    }
+
+    .matter-text-para {
+        font-family: "Audi Type";
+        font-size: 16px;
+        font-weight: bolder;
+    }
+
+    .g-main{
+        display: flex;
+    }
+
+    .g-text-sub {
+        font-family: "Audi Type";
+        font-size: 16px;
+        padding-left: 282px;
+    }
+
+    .footer-main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .text2 {
+        margin-top: 26px;
+        border: 0.5px outset 
+        black;
+        padding: 16px 8px 16px 8px;
+        text-align: center;
+        width: 200px;
+        margin-left: 127px;
+    }
+
+    }
+
+    @media screen and (max-width:575px) and (min-width:300px)
+{
+    .container{width:100%;}
+    [class*=col-]{width: 100%;}
+
+    .header1 {
+        font-family: "Audi Type";
+        font-size: 30px;
+        font-weight: bolder;
+    }
+
+    .main{
+        display: block;
+        
+    }
+
+    .box {
+    background-color: 
+    white;
+    padding: 50px;
+    width: 334px;
+    margin-top: 126px;
+    margin-left: 2px;
+}
+
+    .kilo-main {
+        display: block;
+    }
+
+    .kilo-sub-main {
+        flex-grow: 1;
+        border-bottom: 1px solid 
+        black;
+        border-right: none;
+       
+    }
+
+    .kilo-text-1 {
+        font-family: "Audi Type";
+        font-size: 16px;
+        font-weight: bolder;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .elec-mid {
+        margin-top: 0px;
+    }
+
+    .box-matter {
+        padding: 6px;
+        width: 350px;
+        margin-top: 60px;
+        margin-left: -5px;
+        height: 256px;
+    }
+
+    .matter-text {
+        font-family: "Audi Type";
+        font-size: 30px;
+        font-weight: bolder;
+    }
+
+    .matter-text-para {
+        font-family: "Audi Type";
+        font-size: 13px;
+        font-weight: bolder;
+    }
+    .matter-main {
+        display: block;
+        
+    }
+
+    .matter-text1 {
+    background-color: 
+    white;
+    margin-top: 10px;
+    border: 1px solid
+    white;
+    padding: 16px 8px 16px 8px;
+    text-align: center;
+    width: 100%;
+    margin-right: 20px;
+    font-size: 16px;
+    }
+
+    .matter-text2 {
+    margin-top: 10px;
+    border: 1px solid 
+    white;
+    padding: 16px 8px 16px 8px;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    color:
+        white;
+    }
+
+    .g-main{
+        display: flex;
+    }
+
+    .g-text1 {
+        font-family: "Audi Type";
+        font-size: 14px;
+    }
+
+    .g-text-sub {
+        font-family: "Audi Type";
+        font-size: 14px;
+        padding-left: 130px;
+    }
+
+    .footer-main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .img-matter {
+        
+        height: 450px;
+    }
+
+    .text2 {
+    margin-top: 27px;
+    border: 0.5px outset 
+    black;
+    padding: 16px 8px 16px 8px;
+    text-align: center;
+    width: 200px;
+    margin-left: 55px;
+}
+}
